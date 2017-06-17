@@ -2,7 +2,7 @@ FROM debian:latest
 
 LABEL maintainer="pixel@rageclic.fr" \
 	  version=1.0 \
-	  description="Create a server Arma3"
+	  description="Create a server HurtWorld"
 
 RUN apt-get update \
     && dpkg --add-architecture i386 \
